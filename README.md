@@ -147,8 +147,54 @@ In my case i get the following:
 >survey=# \dt
 >Did not find any relations.
 >```
+The above was before i ran scripts and connected to the database i defined
+> 
+> ```bash
+> npm run watch   
+> 
+>  > ItTshimologong@1.0.0 watch /home/recruit/Desktop/> ItTshimologong
+>  > nodemon index
+> 
+> [nodemon] 2.0.4
+> [nodemon] to restart at any time, enter `rs`
+> [nodemon] watching path(s): *.*
+> [nodemon] watching extensions: js,mjs,json
+> [nodemon] starting `node index index.js`
+> 
+> server is up and running on localhost:5050
+> 
+> Connected successfully to postgresql DATABASE and TABLE > named:tableName :) 
+> 
+> ```
 
-The above was before i ran scripts i defined
+>```js
+> OUTPUT
+>
+>[
+>   {
+>     id: 1,
+>     surname: 'Mothokwa',
+>     first_name: 'Eli',
+>     contact_numbers: '662555894',
+>     date: 2016-03-02T10:05:00.000Z,
+>     age: 25,
+>     favourite_food: 'stir fries',
+>     indications: [ true, false, true, false ]
+>   },
+>   {
+>     id: 2,
+>     surname: 'Motbhokwa',
+>     first_name: 'Elbi',
+>     contact_numbers: '6612555894',
+>     date: 2016-03-02T10:05:00.000Z,
+>     age: 25,
+>     favourite_food: 'stir fries',
+>     indications: [ true, false, true, false ]
+>   }
+> ]
+>```
+
+
 
 >```bash
 >survey=# \dt
