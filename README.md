@@ -20,17 +20,19 @@
 > ```
 >
 >Assuming that the mentioned tools are installed at this point.
- ```js
 
- npm run watch
- npm run test
-
- //package.json scripts looks like this:
-
-"watch": "nodemon index", //starts database connection
-
- "test":"node index" //runs the server class/file/module named index and prints out data on the console!!!!!!!!!!!
- ```
+ >```bash
+ >npm run watch
+ >npm run test
+>```
+>```json
+> //package.json scripts looks like this:
+> "scripts": {
+>    "watch": "nodemon index", 
+>    "start":"node index",
+>    "test": "echo \"Error: no test specified\" && exit 1"
+>  },
+ >```
 
 >
 
